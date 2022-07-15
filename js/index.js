@@ -286,13 +286,6 @@ function reveal() {
   loop();
   
   
-    <audio src="happy.mp3" id="my_audio" loop="loop"></audio>
-  <script type="text/javascript">
-    window.onload=function(){
-      document.getElementById("my_audio").play();
-    }
-  </script>
-
   
   var w, h;
   if (window.innerWidth >= 1000) {
